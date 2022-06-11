@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/rounded_square.xml" value="0.1815" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/fragment_help.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/fragment_notifications.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/layout/fragment_stats.xml" value="0.2515151515151515" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3875" />
+        <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/ic_alcohol.xml" value="0.2305" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1705" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/ic_fallout_76_food_icon.xml" value="0.1265" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.232" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.232" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/drawable/rounded_square.xml" value="0.1705" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_database.xml" value="0.3826247689463956" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_help.xml" value="0.13904007916872835" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_missing.xml" value="0.16" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_notifications.xml" value="0.13904007916872835" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/layout/fragment_stats.xml" value="0.17" />
+        <entry key="..\:/Users/chrac/Documents/TCS/RandomProjects/PlanModDatabase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.13904007916872835" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

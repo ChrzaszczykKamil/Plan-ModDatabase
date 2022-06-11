@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Plan &amp; Mod Database</string>
+    <string name="title_stats">Stats</string>
+    <string name="title_help">Help</string>
+    <string name="title_database">Database</string>
+    <string name="title_missing">Missing</string>
+
+    <string name="weapons">Weapons</string>
+    <string name="armor">Armor</string>
+    <string name="pa">Power Armor</string>
+    <string name="tinkers">Tinkers</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="cooking">Cooking</string>
+    <string name="brewing">Brewing</string>
+    <string name="camp">CAMP</string>
+    <string name="photomode">Photomode</string>
+</resources>

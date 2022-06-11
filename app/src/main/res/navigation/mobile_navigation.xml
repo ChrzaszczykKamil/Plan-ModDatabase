@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_stats">
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.example.planmoddatabase.ui.StatsFragment"
+        android:label="@string/title_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.planmoddatabase.ui.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_database"
+        android:name="com.example.planmoddatabase.ui.DatabaseFragment"
+        android:label="@string/title_database"
+        tools:layout="@layout/fragment_database" />
+
+    <fragment
+        android:id="@+id/navigation_missing"
+        android:name="com.example.planmoddatabase.ui.MissingFragment"
+        android:label="@string/title_missing"
+        tools:layout="@layout/fragment_missing" />
+</navigation>

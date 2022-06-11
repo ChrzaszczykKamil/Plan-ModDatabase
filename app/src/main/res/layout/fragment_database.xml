@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DatabaseFragment">
+
+    <Button
+        android:id="@+id/weapons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/weapons"
+        app:layout_constraintBottom_toTopOf="@+id/armor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/armor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/armor"
+        app:layout_constraintBottom_toTopOf="@+id/pa"
+        app:layout_constraintTop_toBottomOf="@+id/weapons"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/pa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/pa"
+        app:layout_constraintBottom_toTopOf="@+id/camp"
+        app:layout_constraintTop_toBottomOf="@+id/armor"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/camp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/camp"
+        app:layout_constraintBottom_toTopOf="@+id/chemistry"
+        app:layout_constraintTop_toBottomOf="@+id/pa"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/chemistry"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/chemistry"
+        app:icon="@drawable/ic_chems"
+        app:iconGravity="textStart"
+        app:iconSize="32dp"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/cook"
+        app:layout_constraintTop_toBottomOf="@+id/camp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/cook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/cooking"
+        app:icon="@drawable/ic_food"
+        app:iconGravity="textStart"
+        app:iconSize="32dp"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/tinkers"
+        app:layout_constraintTop_toBottomOf="@+id/chemistry"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/tinkers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/tinkers"
+        app:layout_constraintBottom_toTopOf="@+id/brewing"
+        app:layout_constraintTop_toBottomOf="@+id/cook"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/brewing"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/brewing"
+        app:icon="@drawable/ic_alcohol"
+        app:iconGravity="textStart"
+        app:iconSize="32dp"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/photomode"
+        app:layout_constraintTop_toBottomOf="@+id/tinkers"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/photomode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:icon="@drawable/ic_home_black_24dp"
+        app:iconGravity="textStart"
+        android:gravity="start|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/photomode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brewing"
+        tools:layout_editor_absoluteX="-16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
