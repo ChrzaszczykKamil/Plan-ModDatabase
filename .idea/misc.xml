@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_alcohol.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_armor.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_camera.xml" value="0.2245" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_chems.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_food.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_pa.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_tinkers.xml" value="0.2055" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/drawable/ic_weapon.xml" value="0.2095" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_database.xml" value="0.33" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_help.xml" value="0.5173333333333333" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_missing.xml" value="0.5173333333333333" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_stats.xml" value="0.5173333333333333" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
         <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1815" />
         <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1815" />
         <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1815" />

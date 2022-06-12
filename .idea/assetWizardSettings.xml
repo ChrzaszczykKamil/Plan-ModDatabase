@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_fo76_chems_icon" />
-                            <entry key="sourceFile" value="C:\Users\chrac\Desktop\FO76_Chems_Icon.svg" />
+                            <entry key="outputName" value="ic_weapon" />
+                            <entry key="sourceFile" value="C:\Users\chrac\Desktop\shapes\76.svg" />
                           </map>
                         </option>
                       </PersistentState>
