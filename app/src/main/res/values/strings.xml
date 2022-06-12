@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Plan &amp; Mod Database</string>
+
+    <!-- Menu -->
     <string name="title_stats">Stats</string>
     <string name="title_help">Help</string>
     <string name="title_database">Database</string>
     <string name="title_missing">Missing</string>
 
+    <!-- database categories -->
     <string name="weapons">Weapons</string>
     <string name="armor">Armor</string>
     <string name="pa">Power Armor</string>
@@ -14,4 +17,7 @@
     <string name="brewing">Brewing</string>
     <string name="camp">CAMP</string>
     <string name="photomode">Photomode</string>
+
+    <!-- errors -->
+    <string name="error_reading_plan_name">Error: plan name not loaded</string>
 </resources>
