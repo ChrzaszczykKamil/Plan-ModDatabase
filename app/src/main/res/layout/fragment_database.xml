@@ -21,7 +21,8 @@
         app:layout_constraintBottom_toTopOf="@+id/armor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/armor"
@@ -37,7 +38,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/pa"
         app:layout_constraintTop_toBottomOf="@+id/weapons"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/pa"
@@ -53,7 +55,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/camp"
         app:layout_constraintTop_toBottomOf="@+id/armor"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/camp"
@@ -69,7 +72,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/chemistry"
         app:layout_constraintTop_toBottomOf="@+id/pa"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/chemistry"
@@ -85,7 +89,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/cook"
         app:layout_constraintTop_toBottomOf="@+id/camp"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="16dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/cook"
@@ -101,7 +106,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/tinkers"
         app:layout_constraintTop_toBottomOf="@+id/chemistry"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="16dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/tinkers"
@@ -117,7 +123,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/brewing"
         app:layout_constraintTop_toBottomOf="@+id/cook"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/brewing"
@@ -133,7 +140,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/photomode"
         app:layout_constraintTop_toBottomOf="@+id/tinkers"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="16dp"
+        android:onClick="sendMessage"/>
 
     <Button
         android:id="@+id/photomode"
@@ -149,6 +157,7 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/brewing"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        android:onClick="sendMessage"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

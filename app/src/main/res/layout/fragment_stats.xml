@@ -32,13 +32,16 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/Avatar"
                     android:layout_width="128dp"
                     android:layout_height="128dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:contentDescription="Avatar"
+                    android:src="@drawable/ic_tinkers"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ImageContrastCheck" />
 
                 <TextView
                     android:id="@+id/usernameText"
@@ -47,10 +50,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
-                    android:text="TextView"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                    app:layout_constraintTop_toBottomOf="@+id/Avatar"
                     tools:ignore="TextContrastCheck" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -60,7 +62,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintStart_toEndOf="@+id/Avatar"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <ProgressBar
@@ -134,17 +136,6 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="414dp"
-                android:layout_height="480dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="360dp"
-                android:backgroundTint="#FFD24C"
-                android:text="Button"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-                tools:ignore="TextContrastCheck" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

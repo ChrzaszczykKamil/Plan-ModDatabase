@@ -1,6 +1,9 @@
-package com.example.planmoddatabase;
+package com.example.planmoddatabase.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -8,12 +11,14 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.planmoddatabase.R;
 import com.example.planmoddatabase.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    public static String DATABASE_MENU;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,5 +37,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
-
+    public void sendMessage(View view) {
+        DATABASE_MENU=((Button)view).getText().toString();
+        System.out.println(DATABASE_MENU);
+        Intent intent = new Intent(this, DatabaseListActivity.class);
+        startActivity(intent);
+    }
 }

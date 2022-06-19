@@ -15,8 +15,8 @@ import java.util.ArrayList;
 
 public class AdapterUnknown extends BaseAdapter implements ListAdapter {
 
-    private ArrayList<String> list = new ArrayList<String>();
-    private Context context;
+    private final ArrayList<String> list;
+    private final Context context;
 
     public AdapterUnknown(ArrayList<String> list, Context context) {
         this.list = list;
