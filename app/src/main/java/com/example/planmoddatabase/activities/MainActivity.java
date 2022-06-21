@@ -18,7 +18,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    public static String DATABASE_MENU;
+    public static int DATABASE_MENU;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
     public void sendMessage(View view) {
-        DATABASE_MENU=((Button)view).getText().toString();
+        DATABASE_MENU=((Button)view).getId();
         System.out.println(DATABASE_MENU);
         Intent intent = new Intent(this, DatabaseListActivity.class);
         startActivity(intent);
