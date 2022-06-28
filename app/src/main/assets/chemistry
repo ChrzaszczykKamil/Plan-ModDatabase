@@ -1,12 +1,12 @@
-.. Chemistry
--- All Drinks
--- Ammo
--- Drugs
--- Energy Ammo
--- Grenades
--- Healing
--- Mutation Serums
--- Nuked Flora
--- Science Projects
--- Smelting
--- Utility
+Chemistry
+-- drinks All Drinks
+-- ammo Ammo
+-- drugs Drugs
+-- energy Energy Ammo
+-- grenades Grenades
+-- healing Healing
+-- serums Mutation Serums
+-- flux Nuked Flora
+-- science Science Projects
+-- smelting Smelting
+-- utility Utility

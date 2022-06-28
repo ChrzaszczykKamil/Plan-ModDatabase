@@ -1,28 +1,28 @@
-.. CAMP
--- Allies
--- Floors
--- Walls
--- Roofs
--- Stairs
--- Doors
--- Crafting
--- Turrets & Traps
--- Defenses
--- Generators
--- Power Connectors
--- Lights
--- Food
--- Water
--- Resources
--- Appliances
--- Beds
--- Chairs
--- Stash Boxes
--- Displays
--- Floor Decor
--- Shelves
--- Vendors
--- Tables
--- Wall Decor
--- Misc. Structures
--- Shelters
+CAMP
+-- allies Allies
+-- floors Floors
+-- walls Walls
+-- roofs Roofs
+-- stairs Stairs
+-- doors Doors
+-- crafting Crafting
+-- turrets Turrets & Traps
+-- defenses Defenses
+-- generators Generators
+-- connectors Power Connectors
+-- lights Lights
+-- food Food
+-- water Water
+-- resources Resources
+-- appliances Appliances
+-- beds Beds
+-- chairs Chairs
+-- stash Stash Boxes
+-- displays Displays
+-- floorDec Floor Decor
+-- shelves Shelves
+-- vendors Vendors
+-- tables Tables
+-- wallDec Wall Decor
+-- misc Misc. Structures
+-- shelters Shelters

@@ -87,13 +87,13 @@
         app:iconGravity="textStart"
         app:iconTint="#FFFFFF"
         app:iconTintMode="multiply"
-        app:layout_constraintBottom_toTopOf="@+id/cook"
+        app:layout_constraintBottom_toTopOf="@+id/cooking"
         app:layout_constraintTop_toBottomOf="@+id/camp"
         tools:layout_editor_absoluteX="16dp"
         android:onClick="sendMessage"/>
 
     <Button
-        android:id="@+id/cook"
+        android:id="@+id/cooking"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:gravity="start|center_vertical"
@@ -122,7 +122,7 @@
         app:iconTint="#FFFFFF"
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/brewing"
-        app:layout_constraintTop_toBottomOf="@+id/cook"
+        app:layout_constraintTop_toBottomOf="@+id/cooking"
         tools:layout_editor_absoluteX="0dp"
         android:onClick="sendMessage"/>
 
