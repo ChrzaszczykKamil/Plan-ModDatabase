@@ -1,5 +1,61 @@
 Secret Service Armor
--- torso Chest Piece
-.. Helmet
--- arms Arms
--- legs Legs
+|| Secret Service Chest Piece
+++ 0 Plan: Secret Service Chest Piece
+:: Material
+.. 0 Standard
+.. 0 Welded
+.. 0 Tempered
+.. 0 Hardened
+.. 0 Buttressed
+:: Misc
+.. 0 No Misc
+.. 0 Lighter Build
+.. 0 Padded
+.. 0 Pocketed
+.. 0 Asbestos Lining
+.. 0 Dense
+.. 0 Deep Pocketed
+.. 0 Lead Lined
+.. 0 Ultra-Light Build
+.. 0 BioCommMesh
+.. 0 Pneumatic
+.. 0 Jetpack
+.. 0 Helmet
+|| Secret Service Arms
+++ 0 Plan: Secret Service Left Arm
+++ 0 Plan: Secret Service Right Arm
+:: Material
+.. 0 Standard
+.. 0 Welded
+.. 0 Tempered
+.. 0 Hardened
+.. 0 Buttressed
+:: Misc
+.. 0 No Misc
+.. 0 Pocketed
+.. 0 Braced
+.. 0 Brawling
+.. 0 Deep Pocketed
+.. 0 Lighter Build
+.. 0 Stabilized
+.. 0 Aerodynamic
+.. 0 Ultra-Light Build
+.. 0 Weighted
+|| Secret Service Legs
+++ 0 Plan: Secret Service Left Leg
+++ 0 Plan: Secret Service Right Leg
+:: Material
+.. 0 Standard
+.. 0 Welded
+.. 0 Tempered
+.. 0 Hardened
+.. 0 Buttressed
+:: Misc
+.. 0 No Misc
+.. 0 Cushioned
+.. 0 Deep Pocketed
+.. 0 Custom Fitted
+.. 0 Lighter Build
+.. 0 Pocketed
+.. 0 Sleek
+.. 0 Ultra-Light Build

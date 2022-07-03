@@ -7,6 +7,8 @@
     <color name="ic_black">#231F20</color>
 
     <color name="light_blue">#92B4EC</color>
+    <color name="very_light_blue">#B8CCEC</color>
+    <color name="dark_blue">#4F89E8</color>
     <color name="light_yellow">#ffffcb</color>
     <color name="yellow">#F5CB5B</color>
 

@@ -45,7 +45,7 @@ public class AdapterUnknown extends BaseAdapter implements ListAdapter {
         View view = convertView;
         if (view == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.row_unknown, null);
+            view = inflater.inflate(R.layout.row_unknown, parent, false);
         }
 
         TextView planName= view.findViewById(R.id.planName);

@@ -1,5 +1,68 @@
 Brotherhood Recon Armor
--- torso Chest Piece
-.. Helmet
--- arms Arms
--- legs Legs
+|| Brotherhood Recon Chest Piece
+++ 0 Plan: Brotherhood Recon Chest Piece
+:: Material
+.. 0 Standard
+.. 0 Buttressed
+.. 0 Hardened
+.. 0 Tempered
+.. 0 Welded
+:: Misc
+.. 0 No Misc
+.. 0 Asbestos Lining
+.. 0 BioCommMesh
+.. 0 Deep Pocketed
+.. 0 Dense
+.. 0 Jetpack
+.. 0 Lead Lined
+.. 0 Lighter Build
+.. 0 Padded
+.. 0 Pneumatic
+.. 0 Pocketed
+.. 0 Ultra-Light Build
+|| Brotherhood Recon Helmet
+++ 0 Plan: Brotherhood Recon Helmet
+|| Brotherhood Recon Arms
+++ 0 Plan: Brotherhood Recon Left Arm
+++ 0 Plan: Brotherhood Recon Right Arm
+:: Material
+.. 0 Standard
+.. 0 Buttressed
+.. 0 Hardened
+.. 0 Tempered
+.. 0 Welded
+:: Misc
+.. 0 No Misc
+.. 0 Aerodynamic
+.. 0 Braced
+.. 0 Brawling
+.. 0 Deep Pocketed
+.. 0 Lead Lined
+.. 0 Lighter Build
+.. 0 Muffled
+.. 0 Pocketed
+.. 0 Stabilized
+.. 0 Strengthened
+.. 0 Ultra-Light Build
+.. 0 Weighted
+|| Brotherhood Recon Arms
+++ 0 Plan: Brotherhood Recon Left Leg
+++ 0 Plan: Brotherhood Recon Right Leg
+:: Material
+.. 0 Standard
+.. 0 Buttressed
+.. 0 Hardened
+.. 0 Tempered
+.. 0 Welded
+:: Misc
+.. 0 No Misc
+.. 0 Cushioned
+.. 0 Custom Fitted
+.. 0 Deep Pocketed
+.. 0 Lead LIned
+.. 0 Lighter Build
+.. 0 Muffled
+.. 0 Pocketed
+.. 0 Sleek
+.. 0 Strengthened
+.. 0 Ultra-Light Build

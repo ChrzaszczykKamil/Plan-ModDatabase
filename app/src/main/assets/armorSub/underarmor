@@ -1,8 +1,65 @@
 Underarmor
--- bos Brohterhood Underarmor
--- casual Casual Underarmor
--- marine Marine Underarmor
--- raider Raider Underarmor
--- sese Secret Service Underarmor
--- vault Vault Suit Underarmor
--- enclave operative Underarmor
+|| Brotherhood Underarmor
+++ 0 BOS Knight Uniform
+++ 0 BOS Officer Uniform
+++ 0 BOS Soldier Uniform
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+|| Casual Underarmor
+++ 0 Flannel Shirt and Jeans
+++ 0 Undershirt & Jeans
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+||Marine Underarmor
+++ 0 Marine Wetsuit
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+||Raider Underarmor
+++ 0 Harness
+++ 0 Long Johns
+++ 0 Raider Leathers
+++ 0 Road Leathers
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+|| Secret Service Underarmor
+++ 0 Secret Service Underarmor
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+|| Vault Suit Underarmor
+++ 0 Vault 51 Jumpsuit
+++ 0 Vault 76 Jumpsuit
+++ 0 Vault 94 Jumpsuit
+++ 0 Vault Tec University Jumpsuit
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining
+|| Operative Underarmor
+:: Lining
+.. 0 Standard Lining
+.. 0 Treated Lining
+.. 0 Resistant Lining
+.. 0 Protective Lining
+.. 0 Shielded Lining

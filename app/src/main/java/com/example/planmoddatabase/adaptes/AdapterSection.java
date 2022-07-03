@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
@@ -55,7 +56,7 @@ public class AdapterSection extends BaseAdapter implements ListAdapter {
         String[] listEntry = list.get(position).split(" ", 2);
         if(listEntry[0].equals("--")) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.row_dropdown_menu, null);
+            view = inflater.inflate(R.layout.row_dropdown_menu, parent, false);
 
             Button Item = view.findViewById(R.id.itemX);
             Item.setText(listEntry[1].split(" ", 2)[1]);
@@ -75,7 +76,6 @@ public class AdapterSection extends BaseAdapter implements ListAdapter {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                //TODO: Recursive sublists loading
                 list =unknownPlans;
                 parentActivity.setTitle(unknownPlans.get(0));
                 list.remove(0);
@@ -83,21 +83,41 @@ public class AdapterSection extends BaseAdapter implements ListAdapter {
 
                 System.out.println("opening"+fileName);
             });
-        }else if(listEntry[0].equals("..")) {
+        }else if(listEntry[0].equals("..")) {//maybe I should join these two
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.row_unknown, null);
+            view = inflater.inflate(R.layout.row_unknown, parent, false);
             TextView planName= view.findViewById(R.id.planName);
-            planName.setText(listEntry[1]);
-        }else if(listEntry[0].equals("++")) {
+            planName.setText(listEntry[1].split(" ", 2)[1]);
+            CheckBox cb= view.findViewById(R.id.btn);
+            cb.setChecked(listEntry[1].split(" ", 2)[0].equals("1"));
+
+            cb.setOnClickListener(v -> {
+                if(cb.isChecked()) {
+                    //TODO mark the plan as known
+                    System.out.println("The plan #" + position + " is now known");
+                }else{
+                    //TODO mark the plan as unknown
+                    System.out.println("The plan #" + position + " is now unknown");
+                }
+
+            });
+        }else if(listEntry[0].equals("++")) {//maybe I should join these two
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.row_unknown, null);
+            view = inflater.inflate(R.layout.row_unknown, parent, false);
             TextView planName= view.findViewById(R.id.planName);
-            planName.setText("BASE "+listEntry[1]);
+            planName.setText("BASE "+listEntry[1].split(" ", 2)[1]);
+            CheckBox cb= view.findViewById(R.id.btn);
+            cb.setChecked(listEntry[1].split(" ", 2)[0].equals("1"));
         }else if(listEntry[0].equals("||")) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.row_unknown, null);
-            TextView planName= view.findViewById(R.id.planName);
-            planName.setText("--"+listEntry[1]);
+            view = inflater.inflate(R.layout.row_big_separator, parent, false);
+            TextView planName= view.findViewById(R.id.separatorName);
+            planName.setText(listEntry[1]);
+        }else if(listEntry[0].equals("::")) {
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            view = inflater.inflate(R.layout.row_small_separator, parent, false);
+            TextView planName= view.findViewById(R.id.separatorName);
+            planName.setText(listEntry[1]);
         }
 
         return view;

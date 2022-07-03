@@ -18,8 +18,11 @@
         <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_help.xml" value="0.25" />
         <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_missing.xml" value="0.1" />
         <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/fragment_stats.xml" value="0.33" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_big_separator.xml" value="0.51171875" />
         <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_dropdown_menu.xml" value="0.32207578253706753" />
-        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_unknown.xml" value="0.5" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_separator.xml" value="0.37265625" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_small_separator.xml" value="0.37265625" />
+        <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/layout/row_unknown.xml" value="0.1" />
         <entry key="..\:/Users/chrac/Documents/Plan-ModDatabase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
         <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1815" />
         <entry key="..\:/Users/chrac/Documents/TCS/PlanModDatabase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1815" />
